@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day02_Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_FirstJUnitClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day03_Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day03_xpath_css.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day01_FirstMavenClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day01_FirstMavenClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.Day02_LocatorsIntro.locators">
+  <component name="RunManager" selected="JUnit.Day03_xpath_css.xpathTest">
     <configuration name="Day02_FirstJUnitClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
@@ -90,22 +87,6 @@
       <option name="PACKAGE_NAME" value="com.techproed" />
       <option name="MAIN_CLASS_NAME" value="com.techproed.Day02_FirstJUnitClass" />
       <option name="METHOD_NAME" value="assertion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day02_FirstJUnitClass.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day02_FirstJUnitClass" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,13 +124,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day03_xpath_css.xpathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day03_xpath_css" />
+      <option name="METHOD_NAME" value="xpathTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day03_xpath_css.xpathTest" />
         <item itemvalue="JUnit.Day02_LocatorsIntro.locators" />
         <item itemvalue="JUnit.Day02_FirstJUnitClass.assertion" />
         <item itemvalue="JUnit.Day02_FirstJUnitClass" />
         <item itemvalue="JUnit.Day02_FirstJUnitClass.test3" />
-        <item itemvalue="JUnit.Day02_FirstJUnitClass.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -180,29 +177,34 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632788190378" />
-    <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632785345304">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632879725280">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879725280" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2508" height="393" key="GridCell.Tab.0.bottom" timestamp="1632793804175">
+    <state width="2508" height="83" key="GridCell.Tab.0.bottom" timestamp="1632879132601">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="393" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632793804175" />
-    <state width="2389" height="288" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632786310342" />
-    <state width="2508" height="393" key="GridCell.Tab.0.center" timestamp="1632793804174">
+    <state width="2508" height="83" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879132601" />
+    <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
+    <state width="2389" height="83" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632877294901" />
+    <state width="2508" height="83" key="GridCell.Tab.0.center" timestamp="1632879132599">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="393" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632793804174" />
-    <state width="2389" height="288" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632786310340" />
-    <state width="2508" height="393" key="GridCell.Tab.0.left" timestamp="1632793804173">
+    <state width="2508" height="83" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879132599" />
+    <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
+    <state width="2389" height="83" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632877294901" />
+    <state width="2508" height="83" key="GridCell.Tab.0.left" timestamp="1632879132590">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="393" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632793804173" />
-    <state width="2389" height="288" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632786310339" />
-    <state width="2508" height="393" key="GridCell.Tab.0.right" timestamp="1632793804174">
+    <state width="2508" height="83" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879132590" />
+    <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
+    <state width="2389" height="83" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632877294900" />
+    <state width="2508" height="83" key="GridCell.Tab.0.right" timestamp="1632879132600">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="393" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632793804174" />
-    <state width="2389" height="288" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632786310340" />
+    <state width="2508" height="83" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879132600" />
+    <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
+    <state width="2389" height="83" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632877294901" />
   </component>
 </project>

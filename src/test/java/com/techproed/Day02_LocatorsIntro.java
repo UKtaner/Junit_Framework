@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.List;
+
 public class Day02_LocatorsIntro {
 
     WebDriver driver;
@@ -58,10 +60,39 @@ public class Day02_LocatorsIntro {
         Assert.assertEquals(expectedUserId,userIdText);
 
 //        Verify the Addresses and Sign Out texts are displayed
+        //The text of Addresses link is Addresses
+        WebElement addressesElement=driver.findElement(By.linkText("Addresses"));
+        //isDisplayed() method is used to verify if an element is on the page or not
+        //Return type is boolean
+        //Returns true if element is on the page
+        //returns false if element is not on the page
+        Assert.assertTrue(addressesElement.isDisplayed());
+
+
+        //Sign Out element is displayed on the page or not
+        WebElement signOutElement=driver.findElement(By.partialLinkText("ign out"));//Will find Sign out
+//        WebElement signOutElement=driver.findElement(By.partialLinkText("gn out"));
+        Assert.assertTrue(signOutElement.isDisplayed());
+
+        //What is the difference between linktext and partiallinktext?
+        //linktext -> we must give the entire text with extra spaces and all
+        //partialLinkText-> we can give the entire text or part of the text
+
+
+
 //        Find the number of total link on the page
+        //Links are created by a tag, so we can find all links b finding all elements with a tag
+        List<WebElement> allLinks = driver.findElements(By.tagName("a"));
+        int linkSize=allLinks.size();
+        System.out.println("Number of the link is " + linkSize);
+
 //        Sign out from the page
+        driver.findElement(By.linkText("Sign out")).click();
 
-
-
+        //Verify the sign out is successful
+        boolean isLoggedOut = driver
+                .getCurrentUrl()
+                .equals("http://a.testaddressbook.com/sign_in");
+        Assert.assertTrue(isLoggedOut);
     }
 }
