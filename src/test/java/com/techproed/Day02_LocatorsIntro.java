@@ -38,6 +38,7 @@ public class Day02_LocatorsIntro {
         emailBox.sendKeys("testtechproed@gmail.com");
 
 
+
         //Password Element:
         driver.findElement(By.name("session[password]")).sendKeys("Test1234!");
 

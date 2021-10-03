@@ -23,8 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day04_GoogleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05_Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/homework/AccountCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day04_GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day04_GoogleSearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +69,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.Day04_GoogleSearch.teaPotSearch">
-    <configuration name="Day02_FirstJUnitClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day05_RadioButton.radioButton">
+    <configuration name="Day05_DropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -70,13 +79,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day02_FirstJUnitClass" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02_FirstJUnitClass.assertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_DropDown.printFirstSelectedOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -85,14 +94,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day02_FirstJUnitClass" />
-      <option name="METHOD_NAME" value="assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
+      <option name="METHOD_NAME" value="printFirstSelectedOptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02_LocatorsIntro.locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_DropDown.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +110,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day02_LocatorsIntro" />
-      <option name="METHOD_NAME" value="locators" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
+      <option name="METHOD_NAME" value="sizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03_xpath_css.xpathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_JavaFaker.fakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +126,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day03_xpath_css" />
-      <option name="METHOD_NAME" value="xpathTest" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_JavaFaker" />
+      <option name="METHOD_NAME" value="fakerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day04_GoogleSearch.teaPotSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_RadioButton.radioButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day04_GoogleSearch" />
-      <option name="METHOD_NAME" value="teaPotSearch" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_RadioButton" />
+      <option name="METHOD_NAME" value="radioButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day04_GoogleSearch.teaPotSearch" />
-        <item itemvalue="JUnit.Day03_xpath_css.xpathTest" />
-        <item itemvalue="JUnit.Day02_LocatorsIntro.locators" />
-        <item itemvalue="JUnit.Day02_FirstJUnitClass.assertion" />
-        <item itemvalue="JUnit.Day02_FirstJUnitClass" />
+        <item itemvalue="JUnit.Day05_RadioButton.radioButton" />
+        <item itemvalue="JUnit.Day05_JavaFaker.fakerTest" />
+        <item itemvalue="JUnit.Day05_DropDown" />
+        <item itemvalue="JUnit.Day05_DropDown.sizeTest" />
+        <item itemvalue="JUnit.Day05_DropDown.printFirstSelectedOptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,38 +183,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1632788190378">
+    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1633285943369">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632788190378" />
-    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632879725280">
+    <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633285943369" />
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633286135256">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632879725280" />
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633286135256" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2414" height="292" key="GridCell.Tab.0.bottom" timestamp="1633193487045">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state width="2560" height="59" key="GridCell.Tab.0.bottom" timestamp="1633290852803">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="715" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632880795170" />
+    <state width="2560" height="59" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852803" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
-    <state width="2414" height="292" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633193487045" />
-    <state width="2414" height="292" key="GridCell.Tab.0.center" timestamp="1633193487044">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state width="2466" height="794" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893493" />
+    <state width="2560" height="59" key="GridCell.Tab.0.center" timestamp="1633290852802">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="715" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632880795168" />
+    <state width="2560" height="59" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852802" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
-    <state width="2414" height="292" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633193487044" />
-    <state width="2414" height="292" key="GridCell.Tab.0.left" timestamp="1633193487043">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state width="2466" height="794" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893492" />
+    <state width="2560" height="59" key="GridCell.Tab.0.left" timestamp="1633290852801">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="715" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632880795166" />
+    <state width="2560" height="59" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852801" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
-    <state width="2414" height="292" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633193487043" />
-    <state width="2414" height="292" key="GridCell.Tab.0.right" timestamp="1633193487044">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state width="2466" height="794" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893492" />
+    <state width="2560" height="59" key="GridCell.Tab.0.right" timestamp="1633290852802">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="715" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1632880795169" />
+    <state width="2560" height="59" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852802" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
-    <state width="2414" height="292" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633193487044" />
+    <state width="2466" height="794" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893493" />
   </component>
 </project>
