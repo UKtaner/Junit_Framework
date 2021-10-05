@@ -1,6 +1,7 @@
 package com.techproed;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -71,5 +72,10 @@ public class Day06_IFrame {
         driver.switchTo().parentFrame();//go to parent frame
         WebElement elementSelenium = driver.findElement(By.linkText("Elemental Selenium"));
         Assert.assertTrue(elementSelenium.isDisplayed());
+    }
+
+    @After
+    public void tearDown(){
+        driver.close();
     }
 }
