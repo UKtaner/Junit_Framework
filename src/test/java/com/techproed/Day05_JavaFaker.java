@@ -15,7 +15,6 @@ public class Day05_JavaFaker {
         Faker faker = new Faker();
 
         //2. Now i can generate fake data: firstname, lastname, addresss, city, state, title,...
-
         //generation fake firstname
         String fName = faker.name().firstName();
         String lName = faker.name().lastName();

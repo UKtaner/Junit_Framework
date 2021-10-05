@@ -23,17 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day05_Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_JavaFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/homework/AccountCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06_Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day06_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day06_IFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day02_LocatorsIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day02_LocatorsIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day04_GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day04_GoogleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day05_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day05_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day05_JavaFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/homework/AccountCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/homework/AccountCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day05_JavaFaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day05_JavaFaker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,70 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.Day05_RadioButton.radioButton">
-    <configuration name="Day05_DropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_DropDown.printFirstSelectedOptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
-      <option name="METHOD_NAME" value="printFirstSelectedOptionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_DropDown.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_DropDown" />
-      <option name="METHOD_NAME" value="sizeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05_JavaFaker.fakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day05_JavaFaker" />
-      <option name="METHOD_NAME" value="fakerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day06_IFrame.iframeTest">
     <configuration name="Day05_RadioButton.radioButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
@@ -149,13 +83,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day06_Alert.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day06_Alert" />
+      <option name="METHOD_NAME" value="acceptAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_Alert.dismissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day06_Alert" />
+      <option name="METHOD_NAME" value="dismissAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_Alert.sendKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day06_Alert" />
+      <option name="METHOD_NAME" value="sendKeys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06_IFrame.iframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day06_IFrame" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day06_IFrame.iframeTest" />
+        <item itemvalue="JUnit.Day06_Alert.sendKeys" />
+        <item itemvalue="JUnit.Day06_Alert.dismissAlert" />
+        <item itemvalue="JUnit.Day06_Alert.acceptAlert" />
         <item itemvalue="JUnit.Day05_RadioButton.radioButton" />
-        <item itemvalue="JUnit.Day05_JavaFaker.fakerTest" />
-        <item itemvalue="JUnit.Day05_DropDown" />
-        <item itemvalue="JUnit.Day05_DropDown.sizeTest" />
-        <item itemvalue="JUnit.Day05_DropDown.printFirstSelectedOptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,34 +185,38 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="100" y="100" width="2360" height="1240" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633285943369" />
-    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633286135256">
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633393708162">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633286135256" />
+    <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633393708162" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2560" height="59" key="GridCell.Tab.0.bottom" timestamp="1633290852803">
+    <state width="2560" height="67" key="GridCell.Tab.0.bottom" timestamp="1633398456085">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2560" height="59" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852803" />
+    <state width="2560" height="67" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633398456085" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
-    <state width="2466" height="794" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893493" />
-    <state width="2560" height="59" key="GridCell.Tab.0.center" timestamp="1633290852802">
+    <state width="2107" height="749" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
+    <state width="2560" height="67" key="GridCell.Tab.0.center" timestamp="1633398456083">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2560" height="59" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852802" />
+    <state width="2560" height="67" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633398456083" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
-    <state width="2466" height="794" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893492" />
-    <state width="2560" height="59" key="GridCell.Tab.0.left" timestamp="1633290852801">
+    <state width="2107" height="749" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
+    <state width="2560" height="67" key="GridCell.Tab.0.left" timestamp="1633398456083">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2560" height="59" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852801" />
+    <state width="2560" height="67" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633398456083" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
-    <state width="2466" height="794" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893492" />
-    <state width="2560" height="59" key="GridCell.Tab.0.right" timestamp="1633290852802">
+    <state width="2107" height="749" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050148" />
+    <state width="2560" height="67" key="GridCell.Tab.0.right" timestamp="1633398456084">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2560" height="59" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633290852802" />
+    <state width="2560" height="67" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633398456084" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
-    <state width="2466" height="794" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633288893493" />
+    <state width="2107" height="749" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
+    <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup" timestamp="1633292383723">
+      <screen x="59" y="25" width="2501" height="1415" />
+    </state>
+    <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633292383723" />
   </component>
 </project>
