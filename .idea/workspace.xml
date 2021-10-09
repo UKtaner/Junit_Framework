@@ -23,12 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day07_Actions1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day07_Actions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day07_IframeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day07_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_TestBaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day06_IFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day06_IFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day07_Actions2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day07_Actions2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +63,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.Day07_Actions2.hoverOver">
-    <configuration name="Day06_IFrame.iframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day08_TestBaseDemo">
+    <configuration name="Day08_Actions3.keysUpDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +78,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day06_IFrame" />
-      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day08_Actions3" />
+      <option name="METHOD_NAME" value="keysUpDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_Actions1.contextClickMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day08_Actions4.scrollUpDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -90,30 +94,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day07_Actions1" />
-      <option name="METHOD_NAME" value="contextClickMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.Day08_Actions4" />
+      <option name="METHOD_NAME" value="scrollUpDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_Actions2.hoverOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day08_TestBaseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
+          <option name="PATTERN" value="com.techproed.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day07_Actions2" />
-      <option name="METHOD_NAME" value="hoverOver" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_TestBaseDemo" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_IframeExample.numberOfIframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTestBaseClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +125,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day07_IframeExample" />
-      <option name="METHOD_NAME" value="numberOfIframe" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.FirstTestBaseClass" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07_WindowHandle.windowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTestBaseClass.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day07_WindowHandle" />
-      <option name="METHOD_NAME" value="windowHandle" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.FirstTestBaseClass" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day07_Actions2.hoverOver" />
-        <item itemvalue="JUnit.Day07_Actions1.contextClickMethod" />
-        <item itemvalue="JUnit.Day07_WindowHandle.windowHandle" />
-        <item itemvalue="JUnit.Day07_IframeExample.numberOfIframe" />
-        <item itemvalue="JUnit.Day06_IFrame.iframeTest" />
+        <item itemvalue="JUnit.Day08_TestBaseDemo" />
+        <item itemvalue="JUnit.Day08_Actions4.scrollUpDown" />
+        <item itemvalue="JUnit.Day08_Actions3.keysUpDown" />
+        <item itemvalue="JUnit.FirstTestBaseClass.test3" />
+        <item itemvalue="JUnit.FirstTestBaseClass" />
       </list>
     </recent_temporary>
   </component>
@@ -188,41 +190,52 @@
     </state>
     <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633393708162" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1633485038339">
-      <screen x="61" y="0" width="2499" height="1440" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1633797977484">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633484714594" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633797977484" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
     <state width="2107" height="749" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038339" />
-    <state width="1778" height="143" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633478732601" />
-    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1633485038337">
-      <screen x="61" y="0" width="2499" height="1440" />
+    <state width="2079" height="633" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1633797977483">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633484714592" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633797977483" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038337" />
-    <state width="1778" height="143" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633478732600" />
-    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1633485038336">
-      <screen x="61" y="0" width="2499" height="1440" />
+    <state width="2079" height="633" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1633797977482">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633484714591" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633797977482" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050148" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038336" />
-    <state width="1778" height="143" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633478732599" />
-    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1633485038338">
-      <screen x="61" y="0" width="2499" height="1440" />
+    <state width="2079" height="633" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1633797977484">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633484714593" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633797977484" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
     <state width="2107" height="749" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038338" />
-    <state width="1778" height="143" key="GridCell.Tab.0.right/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633478732601" />
-    <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup" timestamp="1633292383723">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state width="2079" height="633" key="GridCell.Tab.0.right/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
+    <state x="1304" y="141" key="SettingsEditor" timestamp="1633790012808">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="1304" y="141" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633790012808" />
+    <state x="726" y="198" key="SettingsEditor/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633786815689" />
+    <state x="415" y="306" key="new project wizard" timestamp="1633795086109">
+      <screen x="61" y="25" width="2499" height="1415" />
+    </state>
+    <state x="415" y="306" key="new project wizard/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633795086109" />
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup" timestamp="1633790549735">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633790549735" />
     <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633292383723" />
+    <state x="721" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633787675995" />
   </component>
 </project>
