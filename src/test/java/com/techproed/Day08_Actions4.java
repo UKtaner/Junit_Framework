@@ -1,5 +1,6 @@
 package com.techproed;
 
+import com.techproed.utilities.TestBase;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -11,16 +12,16 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Day08_Actions4 {
+public class Day08_Actions4 extends TestBase {
 
-    WebDriver driver;
-    @Before
-    public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-    }
+//    WebDriver driver;
+//    @Before
+//    public void setUp(){
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//        driver.manage().window().maximize();
+//    }
 
     @Test
     public void scrollUpDown() throws InterruptedException {
@@ -51,8 +52,8 @@ public class Day08_Actions4 {
         actions.sendKeys(Keys.ARROW_UP).perform();
 
     }
-    @After
-    public void tearDown(){
-        driver.close();
-    }
+//    @After
+//    public void tearDown(){
+//        driver.close();
+//    }
 }

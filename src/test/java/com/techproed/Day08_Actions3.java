@@ -1,5 +1,6 @@
 package com.techproed;
 
+import com.techproed.utilities.TestBase;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -13,7 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class Day08_Actions3 {
+public class Day08_Actions3 extends TestBase {
 
     /*
 Create a class: Actions3
@@ -22,14 +23,16 @@ Go to google/amazon
 Send iPhone X prices => convert small letter capital vice versa.
 Highlight the search box by double clicking
 * */
-    WebDriver driver;
-    @Before
-    public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-    }
+
+    //NOW THAT WE USED TESTBASE, WE DON'T USE BEAFORE AND AFTER METHOD
+//    WebDriver driver;
+//    @Before
+//    public void setUp(){
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//        driver.manage().window().maximize();
+//    }
 
     @Test
     public void keysUpDown(){
@@ -48,8 +51,8 @@ Highlight the search box by double clicking
                 .perform();
     }
 
-    @After
-    public void tearDown(){
-        driver.close();
-    }
+//    @After
+//    public void tearDown(){
+//        driver.close();
+//    }
 }
