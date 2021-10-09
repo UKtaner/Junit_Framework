@@ -17,11 +17,10 @@ public abstract class TestBase {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);//This must be used.This is better
-        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);//for page load.Optional.Just to wait for page load.more specific.
+
     }
     @After
     public void tearDown(){
-        driver.close();
+//        driver.close();
     }
 }

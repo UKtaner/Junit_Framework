@@ -23,9 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileExistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_Synchronization1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day08_Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,40 +71,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.Day08_Actions3.keysUpDown">
-    <configuration name="Day08_Actions3.keysUpDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day08_Actions3" />
-      <option name="METHOD_NAME" value="keysUpDown" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day08_Actions4.scrollUpDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.Day08_Actions4" />
-      <option name="METHOD_NAME" value="scrollUpDown" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day08_TestBaseDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day08_FileDownloadTest.fileDownloadTest">
+    <configuration name="Day08_FileDownloadTest.fileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -107,38 +81,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_TestBaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_FileDownloadTest" />
+      <option name="METHOD_NAME" value="fileDownloadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08_FileExistTest.isExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_FileExistTest" />
+      <option name="METHOD_NAME" value="isExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08_FileUploadTest.fileUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_FileUploadTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08_Synchronization1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_Synchronization1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTestBaseClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day08_Synchronization1.synchronization1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
+          <option name="PATTERN" value="com.techproed.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.FirstTestBaseClass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTestBaseClass.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.FirstTestBaseClass" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_Synchronization1" />
+      <option name="METHOD_NAME" value="synchronization1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day08_Actions3.keysUpDown" />
-        <item itemvalue="JUnit.Day08_TestBaseDemo" />
-        <item itemvalue="JUnit.Day08_Actions4.scrollUpDown" />
-        <item itemvalue="JUnit.FirstTestBaseClass.test3" />
-        <item itemvalue="JUnit.FirstTestBaseClass" />
+        <item itemvalue="JUnit.Day08_FileDownloadTest.fileDownloadTest" />
+        <item itemvalue="JUnit.Day08_FileUploadTest.fileUploadTest" />
+        <item itemvalue="JUnit.Day08_FileExistTest.isExist" />
+        <item itemvalue="JUnit.Day08_Synchronization1.synchronization1" />
+        <item itemvalue="JUnit.Day08_Synchronization1" />
       </list>
     </recent_temporary>
   </component>
@@ -187,37 +194,41 @@
     </state>
     <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800985712" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2508" height="748" key="GridCell.Tab.0.bottom" timestamp="1633800863139">
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1633810089069">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="748" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800863139" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089069" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146644" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
     <state width="2107" height="749" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
-    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038339" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582874" />
     <state width="2079" height="633" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
-    <state width="2508" height="748" key="GridCell.Tab.0.center" timestamp="1633800863138">
+    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1633810089067">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="748" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800863138" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089067" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146641" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
-    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038337" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582867" />
     <state width="2079" height="633" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="748" key="GridCell.Tab.0.left" timestamp="1633800863138">
+    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1633810089066">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="748" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800863138" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089066" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146639" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050148" />
-    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038336" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582865" />
     <state width="2079" height="633" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="748" key="GridCell.Tab.0.right" timestamp="1633800863139">
+    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1633810089069">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="748" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800863139" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089069" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146643" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
     <state width="2107" height="749" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
-    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633485038338" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582870" />
     <state width="2079" height="633" key="GridCell.Tab.0.right/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
     <state x="1304" y="141" key="SettingsEditor" timestamp="1633790012808">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -228,10 +239,10 @@
       <screen x="61" y="25" width="2499" height="1415" />
     </state>
     <state x="415" y="306" key="new project wizard/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633795086109" />
-    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup" timestamp="1633790549735">
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup" timestamp="1633808458674">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633790549735" />
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633808458674" />
     <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633292383723" />
     <state x="721" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633787675995" />
   </component>
