@@ -23,15 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileExistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_Synchronization1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,37 +188,37 @@
     </state>
     <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800985712" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1633810089069">
+    <state width="2508" height="699" key="GridCell.Tab.0.bottom" timestamp="1633810868790">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089069" />
+    <state width="2508" height="699" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868790" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146644" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
     <state width="2107" height="749" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582874" />
     <state width="2079" height="633" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
-    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1633810089067">
+    <state width="2508" height="699" key="GridCell.Tab.0.center" timestamp="1633810868789">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089067" />
+    <state width="2508" height="699" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868789" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146641" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582867" />
     <state width="2079" height="633" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1633810089066">
+    <state width="2508" height="699" key="GridCell.Tab.0.left" timestamp="1633810868788">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089066" />
+    <state width="2508" height="699" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868788" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146639" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050148" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582865" />
     <state width="2079" height="633" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1633810089069">
+    <state width="2508" height="699" key="GridCell.Tab.0.right" timestamp="1633810868790">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810089069" />
+    <state width="2508" height="699" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868790" />
     <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146643" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
     <state width="2107" height="749" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
