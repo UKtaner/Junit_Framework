@@ -23,9 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca2808d-83af-4628-8d08-b86be4472092" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day09_Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day09_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day09_Javascript_Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/Day08_Actions3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileDownloadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileExistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Day08_FileExistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/Day08_Actions3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Day08_FileDownloadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Day08_FileDownloadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Day08_FileExistTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Day08_FileExistTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +71,9 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.Day08_FileDownloadTest.fileDownloadTest">
+  <component name="RunManager" selected="JUnit.Day09_Javascript_Executor.scrollIntoView">
     <configuration name="Day08_FileDownloadTest.fileDownloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
@@ -77,22 +85,6 @@
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_FileDownloadTest" />
       <option name="METHOD_NAME" value="fileDownloadTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day08_FileExistTest.isExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myjunitproject35_36" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_FileExistTest" />
-      <option name="METHOD_NAME" value="isExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day08_Synchronization1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day09_Authentication.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +115,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_Synchronization1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day09_Authentication" />
+      <option name="METHOD_NAME" value="authTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day08_Synchronization1.synchronization1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day09_Cookies.handleCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myjunitproject35_36" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +131,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day08_Synchronization1" />
-      <option name="METHOD_NAME" value="synchronization1" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day09_Cookies" />
+      <option name="METHOD_NAME" value="handleCookies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day09_Javascript_Executor.scrollIntoView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myjunitproject35_36" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Day09_Javascript_Executor" />
+      <option name="METHOD_NAME" value="scrollIntoView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day09_Javascript_Executor.scrollIntoView" />
+        <item itemvalue="JUnit.Day09_Cookies.handleCookies" />
+        <item itemvalue="JUnit.Day09_Authentication.authTest" />
         <item itemvalue="JUnit.Day08_FileDownloadTest.fileDownloadTest" />
         <item itemvalue="JUnit.Day08_FileUploadTest.fileUploadTest" />
-        <item itemvalue="JUnit.Day08_FileExistTest.isExist" />
-        <item itemvalue="JUnit.Day08_Synchronization1.synchronization1" />
-        <item itemvalue="JUnit.Day08_Synchronization1" />
       </list>
     </recent_temporary>
   </component>
@@ -188,55 +197,56 @@
     </state>
     <state x="854" y="495" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633800985712" />
     <state x="893" y="511" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1632785345304" />
-    <state width="2508" height="699" key="GridCell.Tab.0.bottom" timestamp="1633810868790">
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1633884357676">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="699" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868790" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633884357676" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146644" />
     <state width="2508" height="55" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411955" />
     <state width="2107" height="749" key="GridCell.Tab.0.bottom/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582874" />
-    <state width="2079" height="633" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
-    <state width="2508" height="699" key="GridCell.Tab.0.center" timestamp="1633810868789">
+    <state width="2079" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633878297541" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1633884357674">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="699" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868789" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633884357674" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146641" />
     <state width="2508" height="55" key="GridCell.Tab.0.center/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.center/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582867" />
-    <state width="2079" height="633" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="699" key="GridCell.Tab.0.left" timestamp="1633810868788">
+    <state width="2079" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633878297539" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1633884357673">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="699" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868788" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633884357673" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146639" />
     <state width="2508" height="55" key="GridCell.Tab.0.left/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411953" />
     <state width="2107" height="749" key="GridCell.Tab.0.left/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050148" />
     <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582865" />
-    <state width="2079" height="633" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474952" />
-    <state width="2508" height="699" key="GridCell.Tab.0.right" timestamp="1633810868790">
+    <state width="2079" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633878297539" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1633884357675">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="699" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633810868790" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633884357675" />
     <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1633805146643" />
     <state width="2508" height="55" key="GridCell.Tab.0.right/2560.25.1920.1055/59.0.2501.1440@59.0.2501.1440" timestamp="1632872411954" />
     <state width="2107" height="749" key="GridCell.Tab.0.right/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633314050149" />
     <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633804582870" />
-    <state width="2079" height="633" key="GridCell.Tab.0.right/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633790474953" />
-    <state x="1304" y="141" key="SettingsEditor" timestamp="1633790012808">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2079" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633878297541" />
+    <state x="1304" y="141" key="SettingsEditor" timestamp="1633876915167">
+      <screen x="61" y="0" width="2499" height="1440" />
     </state>
     <state x="1304" y="141" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633790012808" />
+    <state x="1304" y="141" key="SettingsEditor/2560.25.1920.1055/61.0.2499.1440@61.0.2499.1440" timestamp="1633876915167" />
     <state x="726" y="198" key="SettingsEditor/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633786815689" />
     <state x="415" y="306" key="new project wizard" timestamp="1633795086109">
       <screen x="61" y="25" width="2499" height="1415" />
     </state>
     <state x="415" y="306" key="new project wizard/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633795086109" />
-    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup" timestamp="1633808458674">
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup" timestamp="1633876891528">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633808458674" />
+    <state x="676" y="316" width="859" height="1051" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1633876891528" />
     <state x="720" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/59.25.2501.1415@59.25.2501.1415" timestamp="1633292383723" />
     <state x="721" y="336" width="838" height="1032" key="search.everywhere.popup/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1633787675995" />
   </component>

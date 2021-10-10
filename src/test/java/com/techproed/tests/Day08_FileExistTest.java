@@ -17,7 +17,6 @@ public class Day08_FileExistTest {
 
         //Getting the PATH of the HOME directory with JAVA
         String homePath = System.getProperty("user.home");// /Users/techproed/Desktop/flower.jpeg
-
         String pathOfFLower = homePath+"/Desktop/flower.jpeg";
 
 //        String pathOfFLower = "C\\users\\sedef\\Desktop\\flower.jpeg";//hard coded
