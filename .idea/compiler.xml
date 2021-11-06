@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myjunitproject35_36" />
+        <module name="JunitProject-B-35-36-Lesson" />
       </profile>
     </annotationProcessing>
   </component>
